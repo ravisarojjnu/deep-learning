@@ -17,7 +17,7 @@ Dice coefficient, also known as F1 score, is another metric that measures the si
 
 ## Models
 ### FCN
-The FCN model is an encoder-decoder architecture that uses convolutional layers to predict pixel-wise segmentation masks. We implemented the FCN model in PyTorch.
+The FCN model is an encoder-decoder architecture that uses convolutional layers to predict pixel-wise segmentation masks. We implemented the FCN model in PyTorch to detect Colonoscopy polyp.
 #### Result
 
 | Metric | Pretrained FCN model | Trained FCN model from Scratch |Fine tune pre-trained FCN model |
